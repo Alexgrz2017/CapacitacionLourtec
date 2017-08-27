@@ -27,7 +27,8 @@
                     <ComboBox x:Name="Destino" ></ComboBox>
                     <Label Content="Fecha"></Label>
                     <DatePicker x:Name="Fecha">                    </DatePicker>
-                    <Button x:Name="btnConsultar" Content="Consultar">                    </Button>
+                    <Button Content="Consultar" Click="btnConsultar_Click">                    </Button>
+                    <ListView x:Name="LVResultados"> </ListView>
                 </StackPanel>
                 
             </TabItem>

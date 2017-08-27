@@ -10,17 +10,13 @@ namespace BusTicket.Models
     {
         private Localizacion destino;
         private Localizacion salida;
-        private DateTime FechaSalida;
+        private DateTime Fechasalida;
     
-    public Localizacion  Destino
-    {
-        get; set;
-    }
+    public Localizacion  Destino    {        get; set;    }
 
-    public Localizacion Salida
-    {
-        get; set;
-    }
+    public Localizacion Salida     {        get; set;    }
+
+     public DateTime FechaSalida { get; set; }
     }
 
 }
